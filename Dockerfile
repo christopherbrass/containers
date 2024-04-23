@@ -3,7 +3,7 @@ FROM archlinux:latest
 RUN echo "y" | pacman -Sy
 RUN echo "y" | pacman -S vim
 RUN echo "y" | pacman -S file
-RUN echo "y" | pacman -S python3-pip
+RUN echo "y" | pacman -S python-pip
 RUN echo "y" | pacman -S python3-devel
 RUN echo "y" | pacman -S gcc
 RUN echo "y" | pacman -S cargo
