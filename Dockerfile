@@ -9,7 +9,7 @@ RUN apt-get install -y gcc
 RUN apt-get install -y cargo
 RUN apt-get install -y rustfmt
 RUN apt-get install -y diffutils
-RUN apt-get install -y ncurses
+#RUN apt-get install -y ncurses
 RUN apt-get install -y gdb
 RUN apt-get install -y fish
 RUN apt-get install -y tmux
