@@ -1,6 +1,6 @@
 FROM archlinux:latest
 
-RUN echo "y" | pacman -Syu
+RUN echo "y\ny" | pacman -Syu
 RUN pacman -S vim
 RUN pacman -S file
 RUN pacman -S python3-pip
