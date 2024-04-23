@@ -7,3 +7,5 @@ Run the following command in a bash terminal. Replace <REPO_BRANCH> with the bra
 ```
 sudo docker run --interactive --tty --rm --mount type=bind,source="$(pwd)"/,target=/your_code --workdir=/your_code ghcr.io/christopherbrass/containers:<REPO_BRANCH> fish
 ```
+
+A script is provided for on each branch.
