@@ -31,7 +31,7 @@ RUN echo "y" | pacman -S nautilus
 RUN echo "y" | pacman -S python-levenshtein
 RUN echo "y" | pacman -S mypy
 RUN echo "y" | pacman -S python-black
-RUN echo "y" | pacman -S python-py2cfg
+RUN pip3 install py2cfg
 RUN echo "y" | pacman -S python-automata-lib
 
 
