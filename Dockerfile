@@ -27,7 +27,14 @@ RUN echo "y" | pacman -S nautilus
 
 
 
-RUN pip3 install python-levenshtein mypy black py2cfg automata-lib
+RUN pip3 install python-Levenshtein    
+RUN pip3 install mypy
+RUN pip3 install black
+RUN pip3 install py2cfg
+RUN pip3 install automata-lib
+
+
+
 
 RUN exec fish
 RUN echo "alias ls 'ls -1 --color=auto --group-directories-first'" >> ~/.config/fish/config.fish
