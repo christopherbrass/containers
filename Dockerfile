@@ -8,7 +8,7 @@ RUN echo "y" | pacman -S python-pip
 RUN echo "y" | pacman -S python3
 RUN echo "y" | pacman -S gcc
 #RUN echo "y" | pacman -S cargo
-RUN echo "y" | pacman -S rustfmt
+#RUN echo "y" | pacman -S rustfmt
 RUN echo "y" | pacman -S diffutils
 RUN echo "y" | pacman -S ncurses
 RUN echo "y" | pacman -S gdb
