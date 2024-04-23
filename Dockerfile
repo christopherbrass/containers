@@ -14,7 +14,7 @@ RUN apt-get install -y gdb
 RUN apt-get install -y fish
 RUN apt-get install -y tmux
 RUN apt-get install -y ranger
-RUN apt-get install -y vim-X11
+#RUN apt-get install -y vim-X11
 RUN apt-get install -y git
 RUN apt-get install -y python3-pudb
 RUN apt-get install -y fzf
