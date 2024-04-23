@@ -17,7 +17,7 @@ RUN echo "y" | pacman -S tmux
 RUN echo "y" | pacman -S ranger
 #RUN echo "y" | pacman -S vim-X11
 RUN echo "y" | pacman -S git
-RUN echo "y" | pacman -S python3-pudb
+#RUN echo "y" | pacman -S python3-pudb
 RUN echo "y" | pacman -S fzf
 RUN echo "y" | pacman -S neofetch
 RUN echo "y" | pacman -S nautilus
