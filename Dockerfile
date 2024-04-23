@@ -1,6 +1,6 @@
 FROM archlinux:latest
 
-RUN pacman -Syu
+RUN pacman -Syu --no-confirm
 RUN pacman -S vim
 RUN pacman -S file
 RUN pacman -S python3-pip
