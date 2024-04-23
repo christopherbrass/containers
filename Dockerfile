@@ -4,7 +4,7 @@ RUN apt-get update && apt-get upgrade -y
 RUN apt-get install -y vim
 RUN apt-get install -y file
 RUN apt-get install -y python3-pip
-RUN apt-get install -y python3-devel
+#RUN apt-get install -y python3-devel
 RUN apt-get install -y gcc
 RUN apt-get install -y cargo
 RUN apt-get install -y rustfmt
