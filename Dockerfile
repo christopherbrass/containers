@@ -1,6 +1,7 @@
 FROM archlinux:latest
 
-#RUN pacman -S vim
+RUN pacman -Syu
+RUN pacman -S vim
 RUN pacman -S file
 RUN pacman -S python3-pip
 RUN pacman -S python3-devel
