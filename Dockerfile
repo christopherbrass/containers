@@ -28,11 +28,11 @@ RUN echo "y" | pacman -S nautilus
 
 
 
-#RUN pip3 install python-Levenshtein    
-#RUN pip3 install mypy
-#RUN pip3 install black
-#RUN pip3 install py2cfg
-#RUN pip3 install automata-lib
+RUN echo "y" | pacman -S python-Levenshtein    
+RUN echo "y" | pacman -S python-mypy
+RUN echo "y" | pacman -S python-black
+RUN echo "y" | pacman -S python-py2cfg
+RUN echo "y" | pacman -S python-automata-lib
 
 
 
