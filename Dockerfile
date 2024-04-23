@@ -28,7 +28,7 @@ RUN echo "y" | pacman -S nautilus
 
 
 
-RUN echo "y" | pacman -S python-Levenshtein    
+RUN echo "y" | pacman -S python-levenshtein
 RUN echo "y" | pacman -S python-mypy
 RUN echo "y" | pacman -S python-black
 RUN echo "y" | pacman -S python-py2cfg
