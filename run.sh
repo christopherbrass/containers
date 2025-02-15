@@ -1,4 +1,4 @@
 #!/bin/bash
 
-sudo docker pull ghcr.io/christopherbrass/containers:fedora
-sudo docker run --interactive --tty --rm --mount type=bind,source="$(pwd)"/,target=/your_code --workdir=/your_code ghcr.io/christopherbrass/containers:fedora fish
+sudo docker pull ghcr.io/christopherbrass/containers:my_workspace
+sudo docker run --interactive --tty --rm --mount type=bind,source="$(pwd)"/,target=/workspace --workdir=/workspace --name my_workspace_temp ghcr.io/christopherbrass/containers:my_workspace fish
